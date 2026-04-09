@@ -5,17 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hamza Emin Demir'in Sayfaları</title>
     <style>
-        /* CSS direkt HTML içinde - ayrı dosya yok */
+        /* Genel sayfa yapısı */
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Diğer sayfalarla aynı font */
             background: linear-gradient(45deg, #f0f8ff, #e6f3ff);
             display: flex;
+            flex-direction: column; /* Öğeleri yan yana değil, alt alta dizer */
             justify-content: center;
             align-items: center;
             height: 100vh;
             margin: 0;
             color: #333;
         }
+
+        /* Diğer sayfalarındaki standart menü tasarımı */
+        nav {
+            margin-bottom: 40px;
+            background-color: white;
+            padding: 15px 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ff4655; /* Üzerine gelince Valorant kırmızısı */
+        }
+
+        /* Senin tasarladığın Karşılama Kutusu */
         .welcome {
             text-align: center;
             font-size: 2.5em;
@@ -26,27 +49,26 @@
             border-radius: 20px;
             background: white;
             box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: all 0.3s ease; /* Fareyi çekince de yumuşak dönsün diye buraya alındı */
         }
+
         .welcome:hover {
             transform: scale(1.05);
-            transition: all 0.3s ease;
         }
     </style>
 </head>
 <body>
+    
     <nav>
-         <a href="anasayfa.html">Ana Sayfa</a> | 
-        <a href="ajanlar.html">Ajanlar</a> | 
-        <a href="silahlar.html">Silahlar</a> | 
-        <a href="kaynaklar.html">Faydalı Linkler </nav>A
-        
-        
+        <a href="anasayfa.html">Ana Sayfa</a> 
+        <a href="ajanlar.html">Ajanlar</a> 
+        <a href="silahlar.html">Silahlar</a> 
+        <a href="kaynaklar.html">Faydalı Linkler</a>
     </nav>
-    <hr> 
-    <h1>Hoş Geldiniz!</h1>
-    ...
+
     <div class="welcome">
         Hamza Emin Demir'in Sayfalarına Hoşgeldiniz!
     </div>
+
 </body>
 </html>
