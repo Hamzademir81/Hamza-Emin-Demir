@@ -1,34 +1,109 @@
+
 <!DOCTYPE html>
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Silahlar ve Ekonomi</title>
+    <style>
+        /* Sitenin genel ortak tasarımı */
+        body {
+            background-color: #eef5ff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 40px;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1, h2 {
+            color: #2b5797;
+        }
+
+        /* Menü tasarımı */
+        nav {
+            margin-bottom: 30px;
+            background-color: white;
+            padding: 15px 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ff4655;
+        }
+
+        /* İçerik Kutusu */
+        .content {
+            background-color: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            max-width: 800px;
+            width: 100%;
+        }
+
+        /* Liste ve Metin ayarları */
+        p {
+            line-height: 1.6;
+        }
+
+        ol {
+            line-height: 1.8;
+            font-size: 16px;
+        }
+
+        /* Görsel tasarımı */
+        img {
+            border-radius: 8px;
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            margin-top: 40px;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
 </head>
 <body>
 
     <h1>Silah Cephaneliği</h1>
     
     <nav>
-        <a href="anasayfa.html">Ana Sayfa</a> | 
-        <a href="ajanlar.html">Ajanlar</a> | 
-        <a href="silahlar.html">Silahlar</a> | 
+        <a href="anasayfa.html">Ana Sayfa</a> 
+        <a href="ajanlar.html">Ajanlar</a> 
+        <a href="silahlar.html">Silahlar</a> 
         <a href="kaynaklar.html">Faydalı Linkler</a>
     </nav>
-    <hr>
 
-    <h2>Doğru Silahı Seçmek</h2>
-    <p>Oyun içi kredilerini akıllıca kullanarak rauntları kazanabilirsin. İşte en popüler silah kategorileri:</p>
+    <div class="content">
+        <h2>Doğru Silahı Seçmek</h2>
+        <p>Oyun içi kredilerini akıllıca kullanarak rauntları kazanabilirsin. İşte en popüler silah kategorileri:</p>
 
-    <ol>
-        <li><b>Beylik Silahları:</b> Classic, Ghost, Sheriff</li>
-        <li><b>Hafif Makineli Silahlar:</b> Spectre, Stinger</li>
-        <li><b>Taarruz Tüfekleri:</b> Vandal, Phantom</li>
-        <li><b>Keskin Nişancı Tüfekleri:</b> Operator, Marshal</li>
-    </ol>
+        <ol>
+            <li><b>Beylik Silahları:</b> Classic, Ghost, Sheriff</li>
+            <li><b>Hafif Makineli Silahlar:</b> Spectre, Stinger</li>
+            <li><b>Taarruz Tüfekleri:</b> Vandal, Phantom</li>
+            <li><b>Keskin Nişancı Tüfekleri:</b> Operator, Marshal</li>
+        </ol>
 
-    <img src="silahlar.jpg" alt="Valorant Silahları" width="500">
+        <img src="silahlar.jpg" alt="Valorant Silahları" width="500">
+    </div>
 
-    <hr>
     <footer>YBS Web Tasarım Projesi - Hamza Emin Demir</footer>
 
 </body>
