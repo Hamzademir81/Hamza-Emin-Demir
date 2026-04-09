@@ -2,34 +2,116 @@
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Faydalı Kaynaklar</title>
+    <style>
+        /* Sitenin genel ortak tasarımı */
+        body {
+            background-color: #eef5ff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 40px;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1, h2, h3 {
+            color: #2b5797;
+            text-align: center;
+        }
+
+        /* Menü tasarımı */
+        nav {
+            margin-bottom: 30px;
+            background-color: white;
+            padding: 15px 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ff4655;
+        }
+
+        /* İçerik Kutusu */
+        .content {
+            background-color: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            max-width: 800px;
+            width: 100%;
+        }
+
+        /* Link listesi tasarımı */
+        ul {
+            line-height: 1.8;
+            font-size: 16px;
+        }
+
+        .content a {
+            color: #4a90e2;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .content a:hover {
+            color: #ff4655;
+            text-decoration: underline;
+        }
+
+        /* İletişim bölümü ortalama */
+        .contact-section {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px dashed #d1d9e6; /* Araya şık bir kesik çizgi */
+        }
+
+        footer {
+            margin-top: 40px;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
 </head>
 <body>
 
     <h1>Daha Fazla Bilgi İçin</h1>
     
     <nav>
-        <a href="anasayfa.html">Ana Sayfa</a> | 
-        <a href="ajanlar.html">Ajanlar</a> | 
-        <a href="silahlar.html">Silahlar</a> | 
+        <a href="anasayfa.html">Ana Sayfa</a> 
+        <a href="ajanlar.html">Ajanlar</a> 
+        <a href="silahlar.html">Silahlar</a> 
         <a href="kaynaklar.html">Faydalı Linkler</a>
     </nav>
-    <hr>
 
-    <h2>Resmi Kanallar ve Bağlantılar</h2>
-    <p>Oyunu indirmek, yama notlarını okumak veya profesyonel maçları izlemek için aşağıdaki bağlantıları kullanabilirsiniz:</p>
+    <div class="content">
+        <h2>Resmi Kanallar ve Bağlantılar</h2>
+        <p>Oyunu indirmek, yama notlarını okumak veya profesyonel maçları izlemek için aşağıdaki bağlantıları kullanabilirsiniz:</p>
 
-    <ul>
-        <li><a href="https://playvalorant.com/tr-tr/" target="_blank">Valorant Resmi Web Sitesi (Oyunu İndir)</a></li>
-        <li><a href="https://valorantesports.com/" target="_blank">Valorant Espor Sayfası</a></li>
-    </ul>
+        <ul>
+            <li><a href="https://playvalorant.com/tr-tr/" target="_blank">Valorant Resmi Web Sitesi (Oyunu İndir)</a></li>
+            <li><a href="https://valorantesports.com/" target="_blank">Valorant Espor Sayfası</a></li>
+        </ul>
 
-    <br><br>
-    <h3>Benimle İletişime Geçin</h3>
-    <p>Projelerim için GitHub profilimi ziyaret edebilirsiniz:</p>
-    <a href="https://github.com/" target="_blank">GitHub Profilim</a>
+        <div class="contact-section">
+            <h3>Benimle İletişime Geçin</h3>
+            <p>Projelerim için GitHub profilimi ziyaret edebilirsiniz:</p>
+            <a href="https://github.com/Hamzademir81" target="_blank">GitHub Profilim</a>
+        </div>
+    </div>
 
-    <hr>
     <footer>YBS Web Tasarım Projesi - Hamza Emin Demir</footer>
 
 </body>
