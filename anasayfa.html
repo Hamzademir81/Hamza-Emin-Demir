@@ -2,29 +2,98 @@
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
-    <title>Valorant Rehberi - Ana Sayfa</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Valorant Rehberi - Ana Sayfa</title>
+    <style>
+        /* Tüm sayfalar için ortak tasarım */
+        body {
+            background-color: #eef5ff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 40px;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1, h2 {
+            color: #2b5797;
+            text-align: center;
+        }
+
+        /* Menü tasarımı */
+        nav {
+            margin-bottom: 30px;
+            background-color: white;
+            padding: 15px 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ff4655; /* Fareyle üzerine gelince renk değişimi */
+        }
+
+        /* İçerik alanı tasarımı */
+        .content {
+            background-color: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            max-width: 800px;
+            width: 100%;
+            text-align: center; /* Ana sayfada yazıları ortalamak şık durur */
+        }
+
+        p {
+            line-height: 1.6;
+            font-size: 16px;
+        }
+
+        /* Kapak görseli tasarımı */
+        img {
+            border-radius: 8px;
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Resme derinlik katmak için gölge eklendi */
+        }
+
+        footer {
+            margin-top: 40px;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
 </head>
 <body>
 
     <h1>Valorant Dünyasına Hoş Geldiniz</h1>
     
     <nav>
-        <a href="anasayfa.html">Ana Sayfa</a> | 
-        <a href="ajanlar.html">Ajanlar</a> | 
-        <a href="silahlar.html">Silahlar</a> | 
+        <a href="anasayfa.html">Ana Sayfa</a> 
+        <a href="ajanlar.html">Ajanlar</a> 
+        <a href="silahlar.html">Silahlar</a> 
         <a href="kaynaklar.html">Faydalı Linkler</a>
     </nav>
-    <hr>
 
-    <h2>Valorant Nedir?</h2>
-    <p>Valorant, Riot Games tarafından geliştirilen, 5'e 5 oynanan, karakter tabanlı taktiksel bir nişancılık oyunudur. Oyunda yaratıcılığını konuşturarak rakiplerini alt edebilir ve takımınla zafere ulaşabilirsin.</p>
-    
-    <img src="valorant_logo.jpg" alt="Valorant Kapak Görseli" width="500">
-    <br><br>
+    <div class="content">
+        <h2>Valorant Nedir?</h2>
+        <p>Valorant, Riot Games tarafından geliştirilen, 5'e 5 oynanan, karakter tabanlı taktiksel bir nişancılık oyunudur. Oyunda yaratıcılığını konuşturarak rakiplerini alt edebilir ve takımınla zafere ulaşabilirsin.</p>
+        
+        <img src="valorant_logo.jpg" alt="Valorant Kapak Görseli" width="500">
+        
+        <p>Yukarıdaki menüden oyun içindeki ajan sınıflarını ve silah türlerini inceleyebilirsin.</p>
+    </div>
 
-    <p>Yukarıdaki menüden oyun içindeki ajan sınıflarını ve silah türlerini inceleyebilirsin.</p>
-
-    <hr>
     <footer>YBS Web Tasarım Projesi - Hamza Emin Demir</footer>
 
 </body>
