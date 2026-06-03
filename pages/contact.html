@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MinimalHome - İletişim</title>
+  <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-container">
+      <div class="logo">
+        <a href="../index.html">MinimalHome</a>
+      </div>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="../index.html">Ana Sayfa</a></li>
+          <li><a href="products.html">Ürünler</a></li>
+          <li><a href="cart.html">Sepet</a></li>
+          <li><a href="reviews.html">Ürün Yorumları</a></li>
+          <li><a href="contact.html">İletişim</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="contact">
+      <div class="container contact-container">
+        <div class="contact-form">
+          <h1>İletişim</h1>
+          <form id="contact-form">
+            <label for="name">Ad Soyad</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E-posta</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">Konu</label>
+            <input type="text" id="subject" name="subject" required>
+
+            <label for="message">Mesaj</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit" class="btn">Gönder</button>
+          </form>
+          <p id="form-message"></p>
+        </div>
+
+        <div class="contact-info">
+          <h2>İletişim Bilgileri</h2>
+          <p><strong>Ad Soyad:</strong> Hamza Emin Demir</p>
+          <p><strong>Öğrenci No:</strong> 242211052</p>
+          <p><strong>E-posta:</strong> <a href="mailto:hamzademir243530@ogr.duzce.edu.tr">hamzademir243530@ogr.duzce.edu.tr</a></p>
+          <p><strong>Üniversite:</strong> Düzce Üniversitesi</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <p>© 2026 MinimalHome. Tasarım ve Kodlama: Hamza Emin Demir (No: 242211052)</p>
+    </div>
+  </footer>
+
+  <script src="../scripts/myscript.js"></script>
+</body>
+</html>
